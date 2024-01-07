@@ -4,11 +4,16 @@
         align-items: center;
         justify-content: center;
         padding: 0 9%;
+        text-align: center;
 }
 
 .home__content
 {
         /* max-width: 60rem; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
         box-shadow: var(--box-shadow08);
         backdrop-filter: var(--blur-10);
         border-radius: 1rem;
@@ -28,7 +33,7 @@
         width: 32.8rem;
 }
 
-.home__content .text__animate h3
+.home__content .text__animate
 {
         font-size: 3.2rem;
         font-weight: 700;
@@ -40,6 +45,7 @@
 {
         font-size: 1.6rem;
         margin: 2rem 0 4rem;
+        /* text-align: center; */
 }
 
 .btn__box
