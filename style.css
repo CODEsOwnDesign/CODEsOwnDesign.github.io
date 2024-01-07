@@ -1,0 +1,26 @@
+@import url(assets/css/normalize.css);
+@import url(assets/css/variables.css);
+/* header, nav css */
+@import url(assets/css/header.css);
+/* nav css */
+@import url(assets/css/nav.css);
+/* home css */
+@import url(assets/css/home.css);
+
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    background: var(--img-bg-1) var(--bg-img-5);
+    background-position: center;
+    background-size: cover;
+}
+
+section
+{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
